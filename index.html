@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Px to REM converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="root-container">
+      Want to change root element size?
+      <input type="number" name="root-element" value="16" id="root-element" />
+    </div>
+    <div class="converter-container">
+      <div>
+        <label>PX:</label>
+        <input
+          id="px-field"
+          type="number"
+          name="px"
+          min="0"
+          placeholder="your px here"
+        />
+      </div>
+      <div class="midpoint">=</div>
+      <div>
+        <input
+          id="rem-field"
+          type="number"
+          name="px"
+          min="0"
+          placeholder="your rem here"
+        />
+        <label>REM</label>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

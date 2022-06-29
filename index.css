@@ -1,0 +1,21 @@
+.converter-container {
+  display: flex;
+  align-items: center;
+}
+
+.converter-container input {
+  padding: 0.5rem 0.5rem;
+  width: 20rem;
+}
+
+.midpoint {
+  margin: 0 0.5rem;
+}
+
+#root-element {
+  width: 2rem;
+}
+
+.root-container {
+  margin-bottom: 1rem;
+}
